@@ -1,0 +1,26 @@
+.entrar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #D2A24C;
+    padding: 7px 30px;
+    border-radius: 100px;
+}
+
+.entrar a {
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bold;
+}
+
+.entrar a:hover  {
+    color: #1F2729;
+    transition: 250ms;
+}
+
+@media only screen and (max-width: 768px) {
+    .entrar {
+        display: none;
+    }
+}

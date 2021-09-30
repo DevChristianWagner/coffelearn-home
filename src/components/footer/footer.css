@@ -1,0 +1,50 @@
+.container-footer {
+    background-color: rgb(37, 37, 37);
+    height: 274px;
+    margin-top: 15px;
+}
+
+.container-footer h1 { 
+    color: rgb(252, 175, 41);
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(94, 92, 92);
+}
+
+.container-footer li {
+    list-style: none;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: #A8A8B3;
+    font-weight: bold;
+}
+
+.container-footer a:hover {
+    transition: 300ms;
+    color: #dbdbe0;
+}
+
+.footer-links {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.copy h1 {
+    border: none;
+    color: #dbdbe0;
+    font-size: 17px;
+}

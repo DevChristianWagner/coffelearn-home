@@ -1,0 +1,63 @@
+.contato h1 {
+  text-align: center;
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 32rem;
+  font-size: 1.125rem;
+}
+
+.form label, .form input, .form textarea, .form button {
+  display: flex;
+  width: 100%;
+}
+
+.form label {
+  color: #D2A24C;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input, .form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: none;
+}
+
+.form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #D2A24C;
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: #D2A24C;
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 107.8%;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  color: #121414;
+}
+

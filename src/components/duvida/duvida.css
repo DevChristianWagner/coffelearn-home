@@ -1,0 +1,52 @@
+.container-duvida {
+    display: flex;
+    margin: 30px auto;
+    width: 90%;
+}
+
+.container-duvida img {
+    width: 37vw;
+    margin: auto auto;
+    margin-left: 2rem;
+}
+
+.texts-duvida h1 {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    font-size: 2.7rem;
+}
+
+.button-duvida {
+    text-align: center;
+}
+
+.button-duvida a {
+    background-color: #D2A24C;
+    text-decoration: none;
+    color: white;
+    width: 99px;
+    display: flex;
+    font-weight: 550;
+    margin: 30px auto;
+    margin-top: 30px;
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+
+.button-duvida a:hover {
+    color: #1F2729;;
+    transition: 250ms;
+}
+
+@media only screen and (min-width:1500px) {
+    .container-duvida {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container-duvida img {
+        display: none;
+    }
+}

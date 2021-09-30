@@ -1,0 +1,92 @@
+.container-aulas {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.texts-aula h1 {
+    font-size: 2.5rem;
+    color: #61DCFB;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texts-aula {
+    width: 420px;
+    max-width: 90%;
+    margin: auto 0;
+}
+
+.texts-aula p {
+    color: #767676;
+    text-align: center;
+}
+
+.img-aula img {
+    width: 450px;
+}
+
+.texts-aula a {
+    background-color: #D2A24C;
+    text-decoration: none;
+    color: white;
+    width: 182px;
+    display: flex;
+    font-weight: 550;
+    margin: 30px auto;
+    margin-top: 70px;
+    padding: 20px 25px;
+    border-radius: 30px;
+    
+}
+
+.texts-aula a:hover {
+    color: #1F2729;;
+    transition: 250ms;
+}
+
+@media only screen and (max-width: 768px) {
+    .texts-aula h1 {
+        font-size: 3rem;
+    }
+
+    .img-aula img {
+        display: none;
+    }
+
+    .container-aulas {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:968px) {
+    .container-aulas {
+        width: 968px;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    .img-aula img {
+        margin-left: 7rem;
+    }
+
+    .texts-aula h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .img-aula img{
+        display:flex;
+        width: 600px;
+        margin-top: 25px;
+    }
+
+    .container-aulas {
+        width: 70%;
+    }
+}

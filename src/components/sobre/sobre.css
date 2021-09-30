@@ -1,0 +1,52 @@
+.container-sobre {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-sb {
+    display: flex;
+}
+
+.texts-sobre {
+    margin: auto 0;
+}
+
+.container-sb img {
+    width: 40vw;
+    margin-right: 1rem;
+}
+
+h1 {
+    color: #61DCFB;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #767676;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-sb img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:968px) {
+    .container-sobre {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .container-sobre img{
+        display:flex;
+        width: 600px;
+        margin-top: 25px;
+        margin-right: 5rem;
+    }
+
+    .container-sobre {
+        width: 70%;
+    }
+}

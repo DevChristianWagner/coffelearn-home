@@ -1,0 +1,15 @@
+body {
+    background-color: #121414;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
+.navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #121414
+}

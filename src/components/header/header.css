@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    flex: 1;
+    padding: 12px;
+    position: sticky;
+    align-items: center;
+    border-bottom: 1px solid #29292E;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    margin-left: 30px;
+    justify-content: flex-start;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+span {
+    color: #D2A24C;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-menu {
+        display: flex;
+    }
+
+    .web-menu {
+        display: none;
+    }
+
+    .menu {
+        justify-content: flex-end;
+    }
+}

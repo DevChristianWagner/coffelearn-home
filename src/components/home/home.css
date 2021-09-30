@@ -1,0 +1,114 @@
+.bemvindo-container {
+    display: flex;
+}
+
+.container-home {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.home h1 {
+    color: white;
+    font-size: 24px;
+    text-align: start;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    width: 250px;
+    font-weight: 450;
+}
+
+.bemvindo-container img {
+    width: 25px;
+    height: 25px;
+    margin: auto 0;
+    margin-right: 15px;
+}
+
+.bemvindo-container {
+    margin-bottom: -50px;
+}
+
+.home {
+    width: 45%;
+}
+
+.home span {
+    color: #61DCFB;
+}
+
+.texts h1 {
+    width: 100%;
+    font-size: 6.5vw;
+}
+
+.img img{
+    display:flex;
+    width: 45vw;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.info-button a {
+    background-color: #D2A24C;
+    text-decoration: none;
+    color: white;
+    width: 132px;
+    display: flex;
+    font-weight: 550;
+    margin: 30px auto;
+    padding: 17px 25px;
+    border-radius: 30px;
+    
+}
+
+.info-button a:hover {
+    color: #1F2729;;
+    transition: 250ms;
+}
+
+@media only screen and (min-width:968px) {
+    .container-home {
+        width: 968px;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .img img{
+        display:flex;
+        width: 650px;
+        margin-top: 25px;
+    }
+
+    .container-home {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    .img img {
+        margin-left: 7rem;
+    }
+
+    .texts h1 {
+        font-size: 72px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .texts h1 {
+        font-size: 55px;
+    }
+
+    .img img {
+        display: none;
+    }
+
+    .home {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
