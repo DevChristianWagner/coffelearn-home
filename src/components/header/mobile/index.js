@@ -18,7 +18,7 @@ function Mobile({ isOpen, setIsOpen }) {
                     </a>
                 </div>  
                 <div className="mobile-option">
-                    <a href='#video'>
+                    <a href='#video' target="parent" rel="noopener">
                         <i class="fi-rr-info"></i>Video
                     </a>
                 </div>  
@@ -30,7 +30,7 @@ function Mobile({ isOpen, setIsOpen }) {
 
                 <div className="button-entrar">
                     <div className="mobile-option">
-                        <a href='https://coffelearn.space/breve' target='_blank' rel='external'>Entrar</a>
+                        <a href='https://coffelearn.space/breve' target='_blank' rel='noreferrer'>Entrar</a>
                     </div>
                 </div>  
 
